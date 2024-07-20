@@ -3,7 +3,6 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, User, ChatJoinRequest
 
 pr0fess0r_99=Client(
-    "𝗕𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗢𝗽𝘂𝘀𝗧𝗲𝗰𝗵𝘇",
     bot_token = os.environ["BOT_TOKEN", "7200841820:AAFgKy1xg8EYeIMyvcibSmf7g1vinhW1VNQ"],
     api_id = int(os.environ["API_ID", "22207976"]),
     api_hash = os.environ["API_HASH", "22207976"]
