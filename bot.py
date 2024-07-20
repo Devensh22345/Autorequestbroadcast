@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 pr0fess0r_99=Client(
     bot_token = os.environ["BOT_TOKEN", "7200841820:AAFgKy1xg8EYeIMyvcibSmf7g1vinhW1VNQ"],
     api_id = int(os.environ["API_ID", "22207976"]),
-    api_hash = os.environ["API_HASH", "22207976"]
+    api_hash = os.environ["API_HASH", "5c0ad7c48a86afac87630ba28b42560d"]
 )
 
 CHAT_ID=int(os.environ.get("CHAT_ID", "-1001843643040"))
